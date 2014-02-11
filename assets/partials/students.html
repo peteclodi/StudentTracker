@@ -1,0 +1,47 @@
+<title>Students</title>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div ng-controller="StudentsCtrl">
+            <form name="newStudent" ng-submit="addStudent()">
+                <div class="row">
+                    <div class="col-md-2">First Name:</div>
+                    <div class="col-md-3"><input name="input" ng-model="student.firstName" required></div>
+                    <div class="col-md-2">Last Name:</div>
+                    <div class="col-md-3"><input name="input" ng-model="student.lastName" required></div>
+                </div>
+                <div class="row" style="margin-top: 5px;">
+                    <div class="col-md-2">Grade:</div>
+                    <div class="col-md-3"><select ng-model="student.grade" ng-options="grade as grade.name for grade in grades"></select></div>
+                </div>
+                <div class="row" style="margin-top: 15px;">
+                    <div class="col-md-1 col-md-offset-7"><input type="submit" id="submit" value="Add" /></div>
+                    <div class="col-md-1"><input type="button" ng-click="resetStudent()" value="Cancel" /></div>
+                </div>
+            </form>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th style="text-align: left">Name</th>
+                            <th style="text-align: center">Grade</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="student in students">
+                            <td style="text-align: left">{{student.firstName}}&nbsp;{{student.lastName}}</td>
+                            <td style="text-align: center">{{student.grade.name}}</td>
+                            <td id={{student.id}} style="text-align: right">
+                                <button title="Edit Student..." type="button" class="btn btn-xs" ng-click="editStudent($event)"><span class="glyphicon glyphicon-pencil"></span></button>
+                                <button title="Delete Student..." type="button" class="btn btn-xs" ng-click="deleteStudent($event)"><span class="glyphicon glyphicon-remove"></span></button>
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
