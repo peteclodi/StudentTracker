@@ -20,7 +20,7 @@ studentTrackerControllers.controller('EditAttendanceCtrl', ['$scope', 'students'
             }
             else {
                 $scope.attendance[$scope.currentDateValue].forEach(function(studentId) {
-                    $scope.students[id: studentId].attended = false;
+                    //$scope.students[id: studentId].attended = false;
                 });
             }
         });

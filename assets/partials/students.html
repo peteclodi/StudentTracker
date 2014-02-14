@@ -30,7 +30,7 @@
                         </tr>
                         </thead>
                         <tbody>
-                        <tr ng-repeat="student in students">
+                        <tr ng-repeat="student in students track by student.id" bn-log-dom-creation="With">
                             <td style="text-align: left">{{student.firstName}}&nbsp;{{student.lastName}}</td>
                             <td style="text-align: center">{{student.grade.name}}</td>
                             <td id={{student.id}} style="text-align: right">
