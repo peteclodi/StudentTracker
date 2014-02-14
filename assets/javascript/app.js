@@ -28,6 +28,14 @@ studentTrackerApp.provider('students', function(){
     };
 });
 
+studentTrackerApp.provider('attendance', function(){
+    var attendanceMap = [];
+
+    this.$get = function() {
+        return attendanceMap;
+    };
+});
+
 studentTrackerApp.config(['$routeProvider', 'studentsProvider', 'gradesProvider',
     function($routeProvider, studentsProvider, gradesProvider) {
         $routeProvider.

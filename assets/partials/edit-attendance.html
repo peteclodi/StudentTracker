@@ -1,2 +1,28 @@
 <title>Edit Attendance</title>
-<div id="dpEditAttendance"></div>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div ng-controller="EditAttendanceCtrl">
+            <div class="row">
+                <div class="col-md-4">
+                    <div id="dpEditAttendance"></div>
+                </div>
+                <div class="col-md-6">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th style="text-align: left">Name</th>
+                            <th style="text-align: center">Attended</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr ng-repeat="student in students">
+                            <td style="text-align: left">{{student.firstName}}&nbsp;{{student.lastName}}</td>
+                            <td style="text-align: center"><input type="checkbox" ng-model="student.attended" ng-change="attendanceChanged({{student.id}})"/></td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
