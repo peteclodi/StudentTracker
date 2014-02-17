@@ -28,7 +28,7 @@ studentTrackerApp.provider('students', function(){
 
     this.init = function(grades) {
         $.ajax({
-            url: "http://localhost:8080/php/students",
+            url: "http://localhost:8080/api/students",
             type: "GET"
         }).done(function(data, status, jqXHR){
             studentArray = data;
