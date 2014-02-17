@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="AWS">
+  <component name="PublishConfigData" serverName="AWS Test">
     <serverData>
       <paths name="AWS">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$/app" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="AWS Test">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$/assets" web="/test" />
           </mappings>
         </serverdata>
       </paths>
