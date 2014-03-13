@@ -2,20 +2,32 @@
 <div class="container-fluid">
     <div class="row-fluid">
         <div ng-controller="StudentsCtrl">
-            <form name="newStudent" ng-submit="addStudent()">
-                <div class="row">
-                    <div class="col-md-2">First Name:</div>
-                    <div class="col-md-3"><input name="input" ng-model="student.firstName" required></div>
-                    <div class="col-md-2">Last Name:</div>
-                    <div class="col-md-3"><input name="input" ng-model="student.lastName" required></div>
+            <form name="newStudent" ng-submit="addStudent()" class="form-horizontal" role="form">
+                <div class="form-group" ng-class="has-success: newStudent.firstNameInput.$error.pattern">
+                    <label for="firstNameInput" class="col-md-2 control-label">First Name:</label>
+                    <div class="col-md-3">
+                        <input id="firstNameInput" name="firstName" class="form-control" ng-pattern="/\S/" ng-model="student.firstName" required>
+                    </div>
                 </div>
-                <div class="row" style="margin-top: 5px;">
-                    <div class="col-md-2">Grade:</div>
-                    <div class="col-md-3"><select ng-model="student.grade" ng-options="grade as grade.name for grade in grades"></select></div>
+                <div class="form-group">
+                    <label for="lastNameInput" class="col-md-2 control-label">Last Name:</label>
+                    <div class="col-md-3">
+                        <input id="lastNameInput" name="lastName" class="form-control" ng-pattern="/\S/" ng-model="student.lastName" required>
+                    </div>
                 </div>
-                <div class="row" style="margin-top: 15px;">
-                    <div class="col-md-1 col-md-offset-7"><input type="submit" id="submit" value="Add" /></div>
-                    <div class="col-md-1"><input type="button" ng-click="resetStudent()" value="Cancel" /></div>
+                <div class="form-group">
+                    <label for="gradeSelect" class="col-md-2 control-label">Grade:</label>
+                    <div class="col-md-3">
+                        <select id="gradeSelect" name="grade" ng-model="student.grade" ng-options="grade as grade.name for grade in grades"></select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-1 col-md-offset-7">
+                        <input type="submit" id="submit" value="Add">
+                    </div>
+                    <div class="col-md-1">
+                        <input type="button" ng-click="resetStudent()" value="Cancel">
+                    </div>
                 </div>
             </form>
             <hr>

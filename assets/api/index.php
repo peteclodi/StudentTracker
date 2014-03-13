@@ -1,5 +1,8 @@
 <?php
     require "lib/Slim/Slim/Slim.php";
+    include_once "init.php";
+    include_once "models/grades.php";
+    include_once "models/students.php";
 
     Slim\Slim::registerAutoloader();
     $app = new \Slim\Slim();
@@ -103,8 +106,24 @@ EOT;
         }
     );
 
-    $app->get('/grades', function () {
-        echo "[{id: 0, name: 'pre-K'}, {id: 1, name: 'Kindergarten'}]";
+    $app->get('/grades', function () use ($app) {
+        $app->response->setStatus(200);
+        $app->response->headers->set('Content-Type', 'application/json');
+        $app->response->body(json_encode(get_grades()));
+    });
+
+    $app->get('/students', function () use ($app) {
+        $app->response->setStatus(200);
+        $app->response->headers->set('Content-Type', 'application/json');
+        $app->response->body(get_students());
+    });
+
+    $app->post('/initgrades', function () {
+        init_grades();
+    });
+
+    $app->post('/initteststudents', function() {
+        init_test_students();
     });
 
     $app->run();

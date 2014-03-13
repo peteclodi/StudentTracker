@@ -78,8 +78,22 @@
     }
 
     function init_test_students() {
-        $query = "INSERT INTO students (first_name, last_name, grade) VALUES (?, '', ?)";
+        $con = mysqli_connect("localhost","dev","dev","student_tracker");
+
+        // Check connection
+        if (mysqli_connect_errno()) {
+            echo "Failed to connect to MySQL: " . mysqli_connect_error();
+            exit();
+        }
+
+        $query = "INSERT INTO students (first_name, last_name, address_1, city, state, zip_code, grade_level) ".
+                 "VALUES (?, '', '', 'Chicago', 'IL', '60606', ?)";
         $stmt = mysqli_prepare($con, $query);
+
+        if($stmt == false) {
+            echo "Failed to prepare MySQL statement:";
+            exit();
+        }
 
         $firstName = 'Jimmy';
         $grade = 0;

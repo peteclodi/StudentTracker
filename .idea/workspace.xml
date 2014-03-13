@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b427151-1bba-4a06-a84a-8b174048bb6c" name="Default" comment="">
-      <change type="DELETED" beforePath="G:\Javascript\StudentTracker\.htaccess" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/.htaccess" afterPath="$PROJECT_DIR$/assets/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap.sh" afterPath="$PROJECT_DIR$/bootstrap.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/api/models/grades.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/api/sqldata/student_tracker.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/api/models/students.php" />
+      <change type="DELETED" beforePath="G:\Javascript\StudentTracker\assets\api\api.php" afterPath="" />
+      <change type="DELETED" beforePath="G:\Javascript\StudentTracker\assets\api\students.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/index.html" afterPath="$PROJECT_DIR$/assets/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/api/index.php" afterPath="$PROJECT_DIR$/assets/api/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/api/init.php" afterPath="$PROJECT_DIR$/assets/api/init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/partials/students.html" afterPath="$PROJECT_DIR$/assets/app/partials/students.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="StudentTracker.iws" />
@@ -35,46 +37,51 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/api/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="0" selection-start="7167" selection-end="7239" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="1887">
+            <state line="125" column="29" selection-start="7840" selection-end="7840" vertical-scroll-proportion="-0.0" vertical-offset="2125" max-vertical-offset="2210">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap.sh">
+      <file leaf-file-name="grades.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/api/models/grades.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="374">
-              <folding />
+            <state line="26" column="19" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="561">
+              <folding>
+                <marker date="1393743634191" expanded="true" signature="348:374" placeholder="SELECT * FRO..grade_levels..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vagrantfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vagrantfile">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="init.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/api/init.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="4" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="2057">
-              <folding />
+            <state line="80" column="57" selection-start="2598" selection-end="2599" vertical-scroll-proportion="-0.0" vertical-offset="1360" max-vertical-offset="3139">
+              <folding>
+                <marker date="1393789863932" expanded="true" signature="343:385" placeholder="INSERT INTO ..." />
+                <marker date="1393789863932" expanded="true" signature="2806:2966" placeholder="INSERT INTO ..." />
+                <marker date="1393789863932" expanded="true" signature="2806:2897" placeholder="INSERT INTO ..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/.htaccess">
+      <file leaf-file-name="students.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/api/models/students.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="19" selection-start="453" selection-end="453" vertical-scroll-proportion="0.052987598" vertical-offset="208" max-vertical-offset="1652">
-              <folding />
+            <state line="13" column="9" selection-start="437" selection-end="437" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1167">
+              <folding>
+                <marker date="1393788706594" expanded="true" signature="320:342" placeholder="SELECT * FRO..students..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/index.html">
+      <file leaf-file-name="students.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/app/partials/students.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="1607" selection-end="1829" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="646">
+            <state line="5" column="63" selection-start="286" selection-end="286" vertical-scroll-proportion="0.10023585" vertical-offset="0" max-vertical-offset="1817">
               <folding />
             </state>
           </provider>
@@ -84,24 +91,6 @@
         <entry file="file://$PROJECT_DIR$/assets/api/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="119">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/api/lib/Slim/.htaccess">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/api/lib/Slim/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="2" selection-start="8119" selection-end="8119" vertical-scroll-proportion="0.0" vertical-offset="2499" max-vertical-offset="2907">
               <folding />
             </state>
           </provider>
@@ -127,17 +116,25 @@
         <option value="$PROJECT_DIR$/assets/php/api.php" />
         <option value="$PROJECT_DIR$/assets/javascript/app.js" />
         <option value="$PROJECT_DIR$/assets/index.html" />
-        <option value="$PROJECT_DIR$/assets/api/students.php" />
         <option value="$PROJECT_DIR$/assets/api/api.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/assets/api/.htaccess" />
         <option value="$PROJECT_DIR$/assets/api/lib/Slim/index.php" />
-        <option value="$PROJECT_DIR$/assets/api/index.php" />
         <option value="$PROJECT_DIR$/Vagrantfile" />
         <option value="$PROJECT_DIR$/bootstrap.sh" />
         <option value="$USER_HOME$/AppData/Local/Temp/tmpRestClientResponse6651308016592862547.json" />
-        <option value="$PROJECT_DIR$/assets/app/index.html" />
         <option value="$PROJECT_DIR$/assets/.htaccess" />
+        <option value="$PROJECT_DIR$/assets/api/grades.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/tmpRestClientResponse4991013673050464555.html" />
+        <option value="$USER_HOME$/AppData/Local/Temp/tmpRestClientResponse786765976215867685.json" />
+        <option value="$PROJECT_DIR$/assets/api/models/grades.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/tmpRestClientResponse4914484678912182531.json" />
+        <option value="$PROJECT_DIR$/assets/api/students.php" />
+        <option value="$PROJECT_DIR$/assets/api/models/students.php" />
+        <option value="$PROJECT_DIR$/assets/api/index.php" />
+        <option value="$PROJECT_DIR$/assets/api/init.php" />
+        <option value="$PROJECT_DIR$/assets/app/index.html" />
+        <option value="$PROJECT_DIR$/assets/app/partials/students.html" />
       </list>
     </option>
   </component>
@@ -173,7 +170,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -224,8 +220,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StudentTracker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,12 +262,137 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="recentsLimit" value="5" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Javascript\StudentTracker\assets\api\models" />
+    </key>
+  </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
         <RestClientRequest>
           <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://ec2-54-213-180-187.us-west-2.compute.amazonaws.com" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="api/students" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="application" />
+                <option name="value" value="text/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="api/initteststudents" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="application" />
+                <option name="value" value="text/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="api/grades" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="application" />
+                <option name="value" value="text/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="api/grades/1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="application" />
+                <option name="value" value="text/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="api/grades/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="application" />
+                <option name="value" value="text/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
           <option name="urlPath" value="api/grades" />
           <option name="headers">
             <list>
@@ -267,8 +411,48 @@
           <option name="filesToSend" value="" />
         </RestClientRequest>
         <RestClientRequest>
-          <option name="httpMethod" value="GET" />
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://127.0.0.1:8080" />
+          <option name="urlPath" value="api/initgrades" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="api/initgrades" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://ec2-54-213-180-187.us-west-2.compute.amazonaws.com" />
           <option name="urlPath" value="api/grades" />
           <option name="headers">
             <list>
@@ -692,7 +876,11 @@
       <created>1392823144671</created>
       <updated>1392823144671</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix the API connection issue&#10;">
+      <created>1393297924201</created>
+      <updated>1393297924201</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -708,16 +896,16 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18660288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3987034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27272728" sideWeight="0.43939394" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32713348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858709" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274918" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3884026" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.381161" sideWeight="0.56060606" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -740,320 +928,49 @@
     <MESSAGE value="Added more functionality to the API implementation&#10;" />
     <MESSAGE value="Odds and Ends&#10;" />
     <MESSAGE value="Add Slim framework to the API&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Slim framework to the API&#10;" />
+    <MESSAGE value="fix the API connection issue&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix the API connection issue&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/assets/api/api.php</url>
-          <line>80</line>
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/api/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="119">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="31" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrantfile">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="58" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="2125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/students.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/verify/grades.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="36" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2159" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2023">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="31" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrantfile">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="518" selection-end="570" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="2125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/students.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/verify/grades.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="36" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2159" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2023">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="0" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrantfile">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/students.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/verify/grades.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="36" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2159" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="2023">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/students.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/verify/grades.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="36" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2159" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="2023">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/students.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/verify/grades.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="36" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2159" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/students.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="21" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/verify/grades.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="36" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2159" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="28" selection-start="2776" selection-end="2776" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="1972">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/students.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="21" selection-start="842" selection-end="842" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/verify/grades.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="36" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2159" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="28" selection-start="2776" selection-end="2776" vertical-scroll-proportion="0.0" vertical-offset="982" max-vertical-offset="1972">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/students.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="41" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/students.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="891" selection-end="891" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="493" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/verify/grades.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="36" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2159" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/students.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="946" selection-end="946" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="969" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="2023">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/api/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="0" selection-start="7167" selection-end="7239" vertical-scroll-proportion="0.0" vertical-offset="1819" max-vertical-offset="1887">
+        <state line="125" column="29" selection-start="7840" selection-end="7840" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrantfile">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/assets/api/models/grades.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="4" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="2057">
-          <folding />
+        <state line="26" column="19" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="561">
+          <folding>
+            <marker date="1393743634191" expanded="true" signature="348:374" placeholder="SELECT * FRO..grade_levels..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap.sh">
+    <entry file="file://$PROJECT_DIR$/assets/api/init.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="839">
-          <folding />
+        <state line="80" column="57" selection-start="2598" selection-end="2599" vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="2329">
+          <folding>
+            <marker date="1393789863932" expanded="true" signature="343:385" placeholder="INSERT INTO ..." />
+            <marker date="1393789863932" expanded="true" signature="2806:2966" placeholder="INSERT INTO ..." />
+            <marker date="1393789863932" expanded="true" signature="2806:2897" placeholder="INSERT INTO ..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/lib/Slim/README.markdown">
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3872" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/lib/Slim/.htaccess">
+    <entry file="file://$PROJECT_DIR$/assets/api/models/students.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="665">
-          <folding />
+        <state line="13" column="9" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="357">
+          <folding>
+            <marker date="1393788706594" expanded="true" signature="320:342" placeholder="SELECT * FRO..students..." />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/lib/Slim/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="2" selection-start="8119" selection-end="8119" vertical-scroll-proportion="0.0" vertical-offset="2499" max-vertical-offset="2907">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/api/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="597">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/tmpRestClientResponse6651308016592862547.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/index.html">
@@ -1063,9 +980,273 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="119">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="29" selection-start="7840" selection-end="7840" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/models/grades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="19" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="561">
+          <folding>
+            <marker date="1393743634191" expanded="true" signature="348:374" placeholder="SELECT * FRO..grade_levels..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="57" selection-start="2598" selection-end="2599" vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="2329">
+          <folding>
+            <marker date="1393789863932" expanded="true" signature="343:385" placeholder="INSERT INTO ..." />
+            <marker date="1393789863932" expanded="true" signature="2806:2966" placeholder="INSERT INTO ..." />
+            <marker date="1393789863932" expanded="true" signature="2806:2897" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/models/students.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="9" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="357">
+          <folding>
+            <marker date="1393788706594" expanded="true" signature="320:342" placeholder="SELECT * FRO..students..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1607" selection-end="1829" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="119">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="36" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="31" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="518" selection-end="570" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="2125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/verify/grades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="36" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="6" selection-start="0" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="187" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2125" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/verify/grades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="36" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/verify/grades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="36" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/verify/grades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="36" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/verify/grades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="36" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/verify/grades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="36" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="2159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="672" selection-end="672" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="839" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/lib/Slim/README.markdown">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3872" />
+      </provider>
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/lib/Slim/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="665" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/tmpRestClientResponse6651308016592862547.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="19" selection-start="453" selection-end="453" vertical-scroll-proportion="0.052987598" vertical-offset="208" max-vertical-offset="1652">
+        <state line="46" column="0" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.0" vertical-offset="259" max-vertical-offset="1652" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="4" selection-start="692" selection-end="692" vertical-scroll-proportion="0.59342915" vertical-offset="0" max-vertical-offset="2493" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/verify/grades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="23" selection-start="100" selection-end="100" vertical-scroll-proportion="0.103658535" vertical-offset="0" max-vertical-offset="951" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/tmpRestClientResponse4991013673050464555.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1304" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/lib/Slim/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="2" selection-start="8119" selection-end="8119" vertical-scroll-proportion="1.36" vertical-offset="1819" max-vertical-offset="3356" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="607">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/tmpRestClientResponse786765976215867685.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.9230769" vertical-offset="102" max-vertical-offset="1006" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/tmpRestClientResponse4914484678912182531.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1198" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/models/grades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="19" selection-start="854" selection-end="854" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="561">
+          <folding>
+            <marker date="1393743634191" expanded="true" signature="348:374" placeholder="SELECT * FRO..grade_levels..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/tmpRestClientResponse7211022185078869883.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="539" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="29" selection-start="7840" selection-end="7840" vertical-scroll-proportion="0.0" vertical-offset="2125" max-vertical-offset="2210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="57" selection-start="2598" selection-end="2599" vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="3139">
+          <folding>
+            <marker date="1393789863932" expanded="true" signature="343:385" placeholder="INSERT INTO ..." />
+            <marker date="1393789863932" expanded="true" signature="2806:2966" placeholder="INSERT INTO ..." />
+            <marker date="1393789863932" expanded="true" signature="2806:2897" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/api/models/students.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="9" selection-start="437" selection-end="437" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1167">
+          <folding>
+            <marker date="1393788706594" expanded="true" signature="320:342" placeholder="SELECT * FRO..students..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="71" selection-start="128" selection-end="128" vertical-scroll-proportion="0.02004717" vertical-offset="34" max-vertical-offset="1443">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/partials/students.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="63" selection-start="286" selection-end="286" vertical-scroll-proportion="0.10023585" vertical-offset="0" max-vertical-offset="1817">
           <folding />
         </state>
       </provider>
