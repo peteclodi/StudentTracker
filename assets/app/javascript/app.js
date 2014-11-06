@@ -1,4 +1,7 @@
+'use strict';
+
 var studentTrackerApp = angular.module('studentTrackerApp', [
+    'ngResource',
     'ngRoute',
     'studentTrackerControllers'
 ]);
@@ -20,6 +23,18 @@ studentTrackerApp.provider('grades', function(){
     this.$get = function() {
         return [ {name: 'pre-k'}, {name: 'k'}, {name: '1'}, {name: '2'}, {name: '3'},
                  {name: '4'}, {name: '5'}, {name: '6'}, {name: '7'}, {name: '8'} ];
+    };
+});
+
+studentTrackerApp.factory('Grades', function($resource) {
+    var Grades = $resource('api/grades');
+
+    var originalQuery = Grades.query;
+    Grades.query = function(parameters, callback) {
+        var grades = originalQuery.call(Grades, parameters, function () {
+            return grades.grades;
+        });
+        return grades;
     };
 });
 
@@ -57,8 +72,8 @@ studentTrackerApp.provider('attendance', function(){
     };
 });
 
-studentTrackerApp.config(['$routeProvider', 'studentsProvider', 'gradesProvider',
-    function($routeProvider, studentsProvider, gradesProvider) {
+studentTrackerApp.config(['$routeProvider',
+    function($routeProvider) {
         $routeProvider.
             when('/edit-attendance', {
                 templateUrl: 'partials/edit-attendance.html',
@@ -79,6 +94,5 @@ studentTrackerApp.config(['$routeProvider', 'studentsProvider', 'gradesProvider'
             otherwise({
                 redirectTo: '/view-attendance'
             });
-        studentsProvider.init(gradesProvider.$get());
     }
 ]);
